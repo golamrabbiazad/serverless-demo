@@ -22,9 +22,19 @@ functions:
           cors: true
   todo:
     handler: src/api/todo.handler
+    events:
+      - http:
+          path: /todo/{id}
+          method: GET
+          cors: true
 
   todos:
     handler: src/api/todos.handler
+    events:
+      - http:
+          path: todos
+          method: GET
+          cors: true
 
 plugins:
   - serverless-offline
