@@ -1,0 +1,21 @@
+{
+  "name": "serverless-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0",
+    "serverless-offline": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
+  },
+  "repository": "https://github.com/golamrabbiazad/serverless-demo.git",
+  "author": "golamrabbiazad <golamrabbiazad@gmail.com>",
+  "license": "MIT"
+}
