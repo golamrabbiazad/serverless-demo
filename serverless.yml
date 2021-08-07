@@ -14,7 +14,7 @@ provider:
 
 functions:
   api:
-    handler: src/api/api.handler
+    handler: dist/api/index.handler
     events:
       - http: ANY /
       - http: "ANY /{param+}"
